@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+.todo{
+	background-image: url("https://www.todofondos.net/wp-content/uploads/2500x1000-Papel-de-pantalla-de-personajes-de-pelicula-de-terror-clasico.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.cabecera{
+	z-index: 20;
+	position: fixed;
+	font-family: sans-serif;
+	width: 100%;
+	height: 75px;
+	background: #ff4040;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.contenedor{
+		position: fixed;
+}
+.ul_entradas{
+	top: 76px;
+	background-color: rgba(100, 100, 100, 0.4);
+	text-align: center;
+	border-radius: 18px;
+	margin: 0px 5px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 300px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+
+.entradas{
+	border: none;
+	color: #D7F6FB;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin:15px 5px;
+	width: 280px;
+	height: 40px;
+	background: none;
+	outline: none;
+}
+
+
+.entradas::placeholder{
+color: #736F6F;
+}
+
+#btn{
+	color: red;
+	border-radius: 18px;
+	background: #E8F6FF;
+	box-shadow: 0px 1px 2px #285168;
+}
+
+#btn2{
+	color: red;	
+	border-radius: 18px;
+	background: #E8F6FF;
+	box-shadow: 0px 1px 2px #285168;
+}
+
+#btn:active{
+	color: #000;
+	background: #FFFFFF;
+}
+
+#btn2:active{
+		color: #000;
+	background: #FFFFFF;
+}
+
+
+.entradas:focus{
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.main{
+	justify-content: center;
+	z-index: 10;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	top: 130px;
+	left: 400px;
+	background: rgba(7, 51, 59, 0.8);
+	width: 1200px;
+	box-shadow: 0 3px 10px 0 #000000;
+
+}
+
+.img{
+	display: flex;
+	width: 350px;
+	height: 350px;
+	margin: 15px;
+	object-fit: cover;
+	box-shadow: 0 3px 10px 0 #000000;
+}
+.img:active{
+	position: absolute;
+	width: 1170px;
+	height: 870px;
+	object-fit: cover;
+	object-position: center;
+	top: 0;
+	left: 0;
+}
